@@ -2,7 +2,7 @@ library(data.table)
 library(readxl)
 library(moments)
 FF_data <- read_excel("D:/UCLA Master/UCLA Sem3/Quant Asset/HW1/FF_data.xlsx")
-FF_data<-data.table(FF_data)
+FF_data <- data.table(FF_data)
 CRSP_Stocks<-fread(file="D:/UCLA Master/UCLA Sem3/Quant Asset/HW1/data/data2.csv")
 
 PS1_Q1<-function(data_input){
